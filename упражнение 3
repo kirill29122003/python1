@@ -1,0 +1,3 @@
+x = input("Введите любое целое число:")
+sum = int(x) + int(2*x) + int(3*x)
+print(sum)
