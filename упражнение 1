@@ -1,0 +1,13 @@
+a = 9
+b = "Дима"
+print(f'Меня зовут {b}, мне {a} лет')
+
+
+name = input("Введите ваше имя: ")
+years = int(input("Введите ваш возраст: "))
+if years == 1:
+    print(f'{name}, {years} год' )
+elif years < 5:
+    print(f'{name}, {years} года' )
+else:
+    print(f'{name}, {years} лет' )
