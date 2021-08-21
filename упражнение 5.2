@@ -1,0 +1,13 @@
+r_list = [9, 7, 5, 4, 2, 1, 0]
+
+rating = int(input('Enter rating: '))
+inserted = False
+for index, elem in enumerate(r_list):
+    if rating > elem:
+        r_list.insert(index, rating)
+        inserted = True
+        break
+
+if not inserted:
+    r_list.append(rating)
+print(r_list)
